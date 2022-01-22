@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.calendar {
+    font: 14px/1.2 Arial, sans-serif;
+    background: #f2f2f2;
+    padding: 20px;
+    width: 250px;
+    display: inline-block;
+    margin: 20px 40px 20px 40px;
+}
+
+.calendar_title {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.calendar_year {
+    font-weight: bold;
+    color: #333;
+}
+
+.calendar_tb {
+    width: 100%;
+}
+
+.calendar_head {
+    font: bold 14px/1.2 Arial, sans-serif;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.calendar_np {
+    padding: 5px;
+}
+
+.calendar_day {
+    font: 14px/1.2 Arial, sans-serif;
+    padding: 8px 5px;
+    text-align: center;
+}
+
+.calendar_weekend {
+    color: red;
+}
